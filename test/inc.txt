@@ -1,0 +1,4 @@
+--- begin include in .
+line 1
+line 2
+--- end include in .

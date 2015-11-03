@@ -1,0 +1,9 @@
+line 1
+line 2
+line 3
+/*#include "inc.txt"*/
+line 5
+line 6
+/*#include <inc.txt>*/
+line 8
+line 9
