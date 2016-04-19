@@ -47,7 +47,7 @@ int main(int argc, char *argv[]) {
     			e = getFileExt(opt.getInfile(i));
 
     	if (opt.getBegin().empty()) {
-    		if (e == ".html")
+    		if (e == ".html" || e == ".xml")
 	       	lb = "<!--#include";
 	      else if (e == ".css" || e == ".js")
 	       	lb = "/*#include";
@@ -57,7 +57,7 @@ int main(int argc, char *argv[]) {
       	 lb = opt.getBegin();
 
       if (opt.getEnd().empty()) {
-        if (e == ".html")
+        if (e == ".html" || e == ".xml")
         	le = "-->";
         else if (e == ".css" || e == ".js")
         	le = "*/";
